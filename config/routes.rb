@@ -10,6 +10,9 @@ Rails.application.routes.draw do
      post 'substract' => 'substract#substraction'
      post 'divide' => 'divide#divideit'
      post 'multiply' => 'multiply#multiplyit'
+     post 'allsum' => 'allsum#summe'
+  
+
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
