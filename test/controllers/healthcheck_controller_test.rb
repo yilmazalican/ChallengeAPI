@@ -1,9 +1,5 @@
 require 'test_helper'
 
 class HealthcheckControllerTest < ActionController::TestCase
-   test "the truth" do
-
-
-     
-  end
+  # No need for test 
 end

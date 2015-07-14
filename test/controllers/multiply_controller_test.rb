@@ -11,7 +11,7 @@ class MultiplyControllerTest < ActionController::TestCase
 
      response = http.post(uri.path, params.to_json, json_headers)
      data = JSON.parse(response.body)
-   p data["res"]
+
      if data["res"] == 6
        assert true
      else

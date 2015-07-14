@@ -104,24 +104,87 @@
 </nav>
 
 <main role="main">
-<p>Welcome to challenge API. On the left panel, you can search whatever you want.If you send me right parameters shown below with right HTTP headers and Methods, i will reponse you the result as JSON format again</p>
-<table   border="1"style="width:100%">
-  <tr  height="100">
-    <td><b>Method</b></td>
-    <td><b>Request</b></td>
-    <td><b>Response</b></td>
+<h3> Welcome to InternChallengeAPI Documentation Page</h3>
+<p>Welcome to challenge API. On the left panel, you can search whatever you want.</p>
+<p> If you send me right parameters shown below with right HTTP headers and Methods, i will reponse you the result as JSON format again.</p>
+<p> This api's repo is on the github as private. Please visit http://https://github.com/yilmazalican/
+<p> This api has got testing files inside too.<p>
+
+<table border ="1" style="width:100%">
+  <tr>
+    <td height="50"> <b>Url</b></td>
+    <td height="50"> <b>Method</b></td>
+    <td height="50"> <b>Request</b></td>
+    <td height="50"> <b>Response</b></td>
+
   </tr>
-  <tr height="100">
-    <td>HTTP /POST</td>
-    <td>
-{
-​"a"​:​ 1
-​"b"​:​ 3 }</td>
-    <td>3</td>
+  <tr >
+    <td height="50">http://localhost:3000/healthcheck</td>
+    <td height="50">GET</td>
+<td height="50"></td>
+    <td height="50">{"status" : "ok"}</td>
   </tr>
 
+
+  <tr >
+    <td height="50">http://localhost:3000/add</td>
+    <td height="50">POST</td>
+    <td height="50">{"a" : 1, "b" : 1}</td>
+    <td height="50">{"res" : 2}</td>
+  </tr>
+
+  <tr>
+    <td height="50">http://localhost:3000/substract</td>
+    <td height="50">POST</td>
+    <td height="50">{"a" : 2, "b" : 1}</td>
+    <td height="50">{"res" : 1}</td>
+  </tr>
+
+  <tr>
+    <td height="50">http://localhost:3000/divide</td>
+    <td height="50">POST</td>
+    <td height="50">{"a" : 2, "b" : 2}</td>
+    <td height="50">{"res" : 1}</td>
+  </tr>
+
+  <tr>
+    <td height="50">http://localhost:3000/multiply</td>
+    <td height="50">POST</td>
+    <td height="50">{"a" : 2, "b" : 2}</td>
+    <td height="50">{"res" : 4}</td>
+  </tr>
+
+  <tr>
+    <td height="50">http://localhost:3000/allsum</td>
+    <td height="50">POST</td>
+    <td height="50">{"n" : 3}</td>
+    <td height="50">{"res" : 6}</td>
+  </tr>
+
+  <tr>
+    <td height="50">http://localhost:3000/fibonacci</td>
+    <td height="50">POST</td>
+    <td height="50">{"n" : 3}</td>
+    <td height="50">{"res" : 2}</td>
+  </tr>
+
+  <tr>
+    <td height="50">http://localhost:3000/digitofpi</td>
+    <td height="50">POST</td>
+    <td height="50">{"n" : 1}</td>
+    <td height="50">{"res" : 1}</td>
+  </tr>
+
+  <tr>
+    <td height="50">http://localhost:3000/nextprime</td>
+    <td height="50">POST</td>
+    <td height="50">{"n" : 1}</td>
+    <td height="50">{"res" : 2}</td>
+  </tr>
 
 </table>
+
+
 </main>
 
 
