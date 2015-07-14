@@ -14,6 +14,7 @@ Rails.application.routes.draw do
      post 'nextprime' => 'nextprime#findnextprime'
      post 'fibonacci' => 'fibonacci#calcfibonacci'
      post 'digitofpi' => 'digitofpi#digitpi'
+     get 'healthcheck' => 'healthcheck#checkme'
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
