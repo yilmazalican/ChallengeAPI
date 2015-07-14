@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>class Allsummodel - Rails Application Documentation</title>
+<title>class Healthcheckmodel - Rails Application Documentation</title>
 
 <script type="text/javascript">
   var rdoc_rel_prefix = "./";
@@ -72,17 +72,15 @@
     
     <li ><a href="#method-c-new">::new</a>
     
-    <li ><a href="#method-i-sumdef">#sumdef</a>
-    
   </ul>
 </div>
 
   </div>
 </nav>
 
-<main role="main" aria-labelledby="class-Allsummodel">
-  <h1 id="class-Allsummodel" class="class">
-    class Allsummodel
+<main role="main" aria-labelledby="class-Healthcheckmodel">
+  <h1 id="class-Healthcheckmodel" class="class">
+    class Healthcheckmodel
   </h1>
 
   <section class="description">
@@ -112,7 +110,7 @@
         
         <div class="method-heading">
           <span class="method-name">new</span><span
-            class="method-args">(n)</span>
+            class="method-args">()</span>
           
           <span class="method-click-advice">click to toggle source</span>
           
@@ -127,54 +125,10 @@
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File app/models/Allsummodel.rb, line 3</span>
-  <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">n</span>)
-  <span class="ruby-ivar">@res</span> = <span class="ruby-identifier">sumdef</span>(<span class="ruby-identifier">n</span>)
-<span class="ruby-keyword">end</span></pre>
-          </div>
-          
-        </div>
+            <pre><span class="ruby-comment"># File app/models/Healthcheckmodel.rb, line 2</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>()
+<span class="ruby-ivar">@status</span> = <span class="ruby-string">&#39;ok&#39;</span>
 
-        
-
-        
-      </div>
-
-    
-    </section>
-  
-     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
-       <header>
-         <h3>Public Instance Methods</h3>
-       </header>
-
-    
-      <div id="method-i-sumdef" class="method-detail ">
-        
-        <div class="method-heading">
-          <span class="method-name">sumdef</span><span
-            class="method-args">(n)</span>
-          
-          <span class="method-click-advice">click to toggle source</span>
-          
-        </div>
-        
-
-        <div class="method-description">
-          
-          
-          
-          
-
-          
-          <div class="method-source-code" id="sumdef-source">
-            <pre><span class="ruby-comment"># File app/models/Allsummodel.rb, line 6</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">sumdef</span>(<span class="ruby-identifier">n</span>)
-  <span class="ruby-identifier">a</span> = <span class="ruby-value">0</span>
-  <span class="ruby-keyword">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">n</span>
-    <span class="ruby-identifier">a</span> = <span class="ruby-identifier">a</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">i</span>
-  <span class="ruby-keyword">end</span>
-  <span class="ruby-keyword">return</span> <span class="ruby-identifier">a</span>
 <span class="ruby-keyword">end</span></pre>
           </div>
           
