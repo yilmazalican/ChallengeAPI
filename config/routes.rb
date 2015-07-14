@@ -13,6 +13,7 @@ Rails.application.routes.draw do
      post 'allsum' => 'allsum#summe'
      post 'nextprime' => 'nextprime#findnextprime'
      post 'fibonacci' => 'fibonacci#calcfibonacci'
+     post 'digitofpi' => 'digitofpi#digitpi'
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
