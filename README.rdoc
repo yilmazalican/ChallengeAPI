@@ -1,28 +1,9 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+==README
+Welcome to ChallengeAPI, for instructions and explanations please deploy the app and see the documentation on / dir.
+*Ruby version: 2.2.2p95
+*Database creation: No database is needed
+==Test
+*Controller Tests are added. Run the test by <tt>rake test /.../</tt>
+==Deployment instructions
+*Please clone the repo and cd onto dir and run <tt> bundle for dependencies</tt>
+*start your server and browse <tt>http://localhost:3000</tt>
