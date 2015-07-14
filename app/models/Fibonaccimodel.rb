@@ -1,20 +1,14 @@
 class Fibonaccimodel
   def initialize(n)
-@res = calcfibo(n)
+@res = fibonacci(n)
   end
 
-  def calcfibo(n)
-    old = 1
-    thenew = 1
-    sum = 0
-
-  (n-2).times do
-sum = old + thenew
- old = thenew
- thenew = sum
-end
-
-return sum
+  def fibonacci(n)
+     n <= 1 ? n :  fibonacci( n - 1 ) + fibonacci( n - 2 )
   end
+
+
+
+  
 
 end
