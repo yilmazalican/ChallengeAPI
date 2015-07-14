@@ -1,9 +1,9 @@
 ==README
 Welcome to ChallengeAPI, for instructions and explanations please deploy the app and see the documentation on / dir.
-Ruby version: 2.2.2p95
-Database creation: No database is needed
+* Ruby version: 2.2.2p95
+* Database creation: No database is needed
 ==Test
-Controller Tests are added. Run the test by <tt>rake test /.../</tt>
+* Controller Tests are added. Run the test by <tt>rake test /.../</tt>
 ==Deployment instructions
-Please clone the repo and cd onto dir and run <tt> bundle for dependencies</tt>
-Start your server and browse <tt>http://localhost:3000</tt>
+* Please clone the repo and cd onto dir and run <tt> bundle for dependencies</tt>
+* Start your server and browse <tt>http://localhost:3000</tt>
